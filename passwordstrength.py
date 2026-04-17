@@ -10,7 +10,9 @@ If length is > 8:
 (I chose this because it encapsulates the if statements by putting all scenarios where 8 is above 8 such that I can refrain from using the and keyword)
 
 Else if length < 8: Output "Very weak"
+
 Else: "Weak" 
+(The only scenario that falls into this scenario is where length is exactly 8, as we've covered for greater than 9')
 
 """
 
