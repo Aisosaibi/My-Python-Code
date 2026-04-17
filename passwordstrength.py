@@ -1,10 +1,17 @@
 """
+PSEUDOCODE FOR PASSWORDSTRENGTH DETERMINER:
+
 Prompt user for password
 Find out the length of password
-If length is < 8: very weak 
-Elif length is == 8: weak 
-If length is > 8: weak 
-If length is < 8: weak    
+If length is > 8: 
+    if length < 16: Output "Strong"
+    else: Output "Very strong"
+
+(I chose this because it encapsulates the if statements by putting all scenarios where 8 is above 8 such that I can refrain from using the and keyword)
+
+Else if length < 8: Output "Very weak"
+Else: "Weak" 
+
 """
 
 
