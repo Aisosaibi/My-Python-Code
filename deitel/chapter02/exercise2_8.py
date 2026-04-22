@@ -5,19 +5,19 @@ number_three = 3
 number_four = 4
 number_five = 5
 
-square_zero = 0
-square_one = 1
-square_two = 2
-square_three = 3 
-square_four = 4
-square_five = 5
+square_zero = 0**2
+square_one = 1**2
+square_two = 2**2
+square_three = 3**2
+square_four = 4**2
+square_five = 5**2
 
-cube_zero = 0
-cube_one = 1
-cube_two = 2
-cube_three = 3 
-cube_four = 4
-cube_five = 5
+cube_zero = 0**3
+cube_one = 1**3
+cube_two = 2**3
+cube_three = 3**3
+cube_four = 4**3
+cube_five = 5**3
 
 print("number \tsquare \tcube")
 print(number_zero "\t" square_zero "\t" cube_zero)
